@@ -1,0 +1,81 @@
+.l_login{
+margin-left: 35%;
+margin-top: 12%;
+border: solid blue 1.5px;
+border-radius: 12px;
+padding: 8px;
+height: auto;
+width: 180px;
+}
+
+.btn-ingresar{
+    margin-bottom: 5px;
+    margin-left: 28%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.menu input[type="submit"] {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+div{
+    margin: 5px;
+}
+
+.d-table {
+   border-collapse: collapse;
+    text-align: center;
+    align-items: end;
+}
+
+
+.table-Est{
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+p{
+    margin-top: 20%;
+}
+
+.f_log{
+    margin-top: 12%;
+}
+
+.f_Ing{
+    margin-top: 4%;
+}
+
+.mensaje {
+    width: 300px;
+    max-width: 300px;
+    max-height: 150px;
+    min-width: 200px;
+    min-height: 80px;
+}
+
+.d_Insert{
+    border: solid black 2px;
+    border-radius: 5%;
+    width: 330px;
+    padding: 3%;
+    margin-top: 15px;
+    margin-left: 35%;
+}
+
+.f_rasis{
+        margin-top: 3%;
+}
