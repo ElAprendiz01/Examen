@@ -3,51 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <title>Login</title>
 </head>
-<body>
-    <div class="menu">
-        <form action="./html/Ingresar.html" method="get">
-            <input type="submit" value="Ingresar Estudiante" title="Insertar nuevo estudiante">
+<body class="log">
+    <div class="l_login">
+        <h3>Login</h3>
+
+        <label for="username">Username:</label>
+        <input type="email" placeholder="Enter your email">
+        <br><br>
+        <label >Password:</label>
+        <input type="password" placeholder="Enter your password">
+        <br><br>
+        <form action="./home.html" method="get">
+            <input class="btn-ingresar" type="submit" value="Ingresar">
         </form>
-        <form action="./html/contact.html" method="get">
-            <input type="submit" value="Contactanos" title="Contacto">
-        </form>
-        <form action="./html/asistencia.html" method="get">
-            <input type="submit" value="Asistencia" title="Asistencia">
-        </form>
-    </div>
-    <div>
-         <h2>Toma asistencia...</h2>
-        <table class="d-table">
-            <thead>
-                <tr>
-                    <th>Codigo estudiante</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Edad</th>
-                    <th>Accion</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>221854</td>
-                    <td>Duclis</td>
-                    <td>Zamora</td>
-                    <td>22</td>
-                    <td>
-                        <form>
-                            <input type="submit" value="Presente" title="Presente">
-                            <input type="submit" value="Ausente" title="Ausente">
-                        </form>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <p>para iniciar sesión solo de clic en ingresar</p>
     </div>
 </body>
 <footer>
-    <p>Todos los derechos reservados -- Universidad de Managua</p>
+    <p class="f_log">Todos los derechos reservados -- Universidad de Managua</p>
+    
 </footer>
 </html>
